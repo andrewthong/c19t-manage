@@ -13,7 +13,7 @@ if(isset($_POST["submit"])){
 		$error = "'Error: " . $sql . "<br>" . $conn->error."'";
 	}
 
-	$conn->close();
+	$conn->db = null;
 	
 }
 ?>
