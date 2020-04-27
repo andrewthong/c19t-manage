@@ -17,4 +17,4 @@ PHP webserver.
 3. Configure authentication as required
 4. Copy `env.example.php` to `env.php`
 5. Update database credentials in `env.php`
-6. (Optional) Install adminer `wget https://www.adminer.org/latest[-mysql][-en].php -O adminer.php` for additional database management
+6. (Optional) Install adminer `wget https://www.adminer.org/latest-mysql-en.php -O adminer.php` for additional database management
